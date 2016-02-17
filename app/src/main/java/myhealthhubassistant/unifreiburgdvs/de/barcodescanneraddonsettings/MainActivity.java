@@ -37,7 +37,6 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.List;
 
 import de.tudarmstadt.dvs.myhealthassistant.myhealthhub.events.AbstractChannel;
 import myhealthhubassistant.unifreiburgdvs.de.barcodescanneraddonsettings.comm.CommBroadcastReceiver;
@@ -294,13 +293,15 @@ public class MainActivity extends AppCompatActivity {
         CSVWriter writer = new CSVWriter(new FileWriter(csv), ';');
         String[][] arrayOfArrays = new String[(mListObj.size() *34) + 1][];
         int lineCounter = 1;
-        String[] stringArray1 = new String[6];
+        String[] stringArray1 = new String[8];
         stringArray1[0]= "ID";
         stringArray1[1]= "DATE";
         stringArray1[2]= "TIME";
         stringArray1[3]= "SURVEY";
         stringArray1[4]= "QUESTION";
         stringArray1[5]= "ANSWER";
+        stringArray1[6]= "DAY";
+        stringArray1[7]= "SIGNAL";
         arrayOfArrays[0] = stringArray1;
         writer.writeNext(arrayOfArrays[0]);
         for (int i = 0; i < mListObj.size(); i++) {
@@ -319,6 +320,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
                 }
                 stringArray1[5]= String.valueOf(result);
+                stringArray1[6]= innerJsonArray.getString("DAY");
+                stringArray1[7]= innerJsonArray.getString("SIGNAL");
                 arrayOfArrays[lineCounter] = stringArray1;
                 writer.writeNext(arrayOfArrays[lineCounter]);
                 lineCounter++;
