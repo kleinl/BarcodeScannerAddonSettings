@@ -2,60 +2,60 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\klein\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jar="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\support-annotations-22.2.0-8e3e6c2bb8644589f5aacd754162b1072ea0cc62.jar" />
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\classes-5902756bab171e3a674ee495384930a441bca257.jar" />
+    </item>
+    <item
+        jar="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\libs\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\okhttp-2.5.0-b506fdee8f3611311e6e88233f20ced7488eb4df.jar" />
+    </item>
+    <item
+        jar="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\internal_impl-22.2.0-53c828ffc4ff8695a3cccbeb678d022a60dd4bb0.jar" />
+    </item>
+    <item
+        jar="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\libs\myHealthHub.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="50639e1a7d2b801611e70a580ed7b3629ea5789c">
+        <dex dex="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\myHealthHub-2a8eab882dac1e8ada33aceb341a3e03fc767641.jar" />
+    </item>
+    <item
+        jar="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\classes-5e89543e8cffe2b2194d78d995d5bfc1cbdaf856.jar" />
     </item>
     <item
         jar="C:\Users\klein\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\okio-1.6.0-bd7e31d96c14375ab2e835344565baaf5934c588.jar" />
+        <dex dex="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\okio-1.6.0-bd7e31d96c14375ab2e835344565baaf5934c588.jar" />
     </item>
     <item
-        jar="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\classes-e7ae982e4e5cea447e42ef63ddebd37f72bdc1d9.jar" />
-    </item>
-    <item
-        jar="C:\Users\klein\Documents\BarcodeScannerSettings\app\libs\opencsv-3.5.jar"
+        jar="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\libs\opencsv-3.5.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="2e88bd2818506573280599398f4198a04b2b2c8c">
-        <dex dex="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\opencsv-3.5-7cdd018c263b9a7be1fe07c80224c75a81325ce7.jar" />
+        <dex dex="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\opencsv-3.5-5ad6756df7dddd466d99434b51e5710f917b27e1.jar" />
     </item>
     <item
-        jar="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jar="C:\Users\klein\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\internal_impl-22.2.0-f835bb05aa9249d02a6d012263fdb364d8ca8dd9.jar" />
-    </item>
-    <item
-        jar="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\classes-95e0e9819b2d00520b392bd9c9f7fc40e1d401b7.jar" />
-    </item>
-    <item
-        jar="C:\Users\klein\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\okhttp-2.5.0-a0c0b45b64fdec812fb2f86b8591cc767ac5dde1.jar" />
-    </item>
-    <item
-        jar="C:\Users\klein\Documents\BarcodeScannerSettings\app\libs\myHealthHub.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="50639e1a7d2b801611e70a580ed7b3629ea5789c">
-        <dex dex="C:\Users\klein\Documents\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\myHealthHub-6e523dc8f32b46c8c4ce398bd1a00b767e2e3f48.jar" />
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\klein\StudioProjects\BarcodeScannerSettings\app\build\intermediates\pre-dexed\release\support-annotations-22.2.0-d14aadcf0f5f43cc35ad2afebc4b6553058e678c.jar" />
     </item>
 
 </items>
