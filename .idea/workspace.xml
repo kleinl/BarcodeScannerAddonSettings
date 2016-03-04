@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf150859-f9e2-4f9e-bee5-293f67de8ecb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/myhealthhubassistant/unifreiburgdvs/de/barcodescanneraddonsettings/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/myhealthhubassistant/unifreiburgdvs/de/barcodescanneraddonsettings/MainActivity.java" />
     </list>
     <ignored path="BarcodeScannerAddonSettings.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1886,7 +1885,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457035870929</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1457100725534</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1457100725534</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
