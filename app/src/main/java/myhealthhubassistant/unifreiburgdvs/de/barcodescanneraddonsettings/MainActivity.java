@@ -313,11 +313,15 @@ public class MainActivity extends AppCompatActivity {
                 stringArray1[3]= innerJsonArray.getString("SURVEY");
                 stringArray1[4]= String.valueOf(j + 1);
                 Integer result = Integer.valueOf(innerJsonArray.getJSONArray("RESULT").getString(j));
-                switch (Integer.valueOf(stringArray1[3])) {
-                    case 4 : result = result - 1;
-                        break;
-                    case 5 : result = result * 10;
-                        break;
+                if (result != -1) {
+                    switch (Integer.valueOf(stringArray1[3])) {
+                        case 4:
+                            result = result - 1;
+                            break;
+                        case 5:
+                            result = result * 10;
+                            break;
+                    }
                 }
                 stringArray1[5]= String.valueOf(result);
                 stringArray1[6]= innerJsonArray.getString("DAY");
